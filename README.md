@@ -10,7 +10,7 @@ This project implements a real-time smile detection application using OpenCV and
 ##### Prerequisites:
 Ensure you have Python 3 and OpenCV (cv2) library installed. You can install OpenCV using pip install opencv-python.
 ##### Download Pre-trained Classifiers:
-######## Download the following pre-trained cascade classifier files:
+###### Download the following pre-trained cascade classifier files:
 frontal_face.xml: This file is used for face detection. You can find it online from various sources offering OpenCV pre-trained classifier data.
 smile.xml: This file is specifically trained for smile detection within the detected faces. You can potentially find it alongside frontal_face.xml or search online for pre-trained smile cascade classifiers.
 Place the downloaded XML files in the same directory as this Python script (Smile.py).
